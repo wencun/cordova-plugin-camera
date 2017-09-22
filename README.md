@@ -90,7 +90,7 @@ To add this entry you can pass the following variables on plugin install.
 
 Example:
 
-    cordova plugin add cordova-plugin-camera --variable CAMERA_USAGE_DESCRIPTION="your usage message" --variable PHOTOLIBRARY_USAGE_DESCRIPTION="your usage message" --variable LOCATION_WHEN_IN_USE_USAGE_DESCRIPTION="your usage message" --variable PHOTOLIBRARY_ADD_USAGE_DESCRIPTION="your usage message"
+    cordova plugin add cordova-plugin-camera --variable CAMERA_USAGE_DESCRIPTION="是否允许此App使用你的相机？" --variable PHOTOLIBRARY_USAGE_DESCRIPTION="是否允许此App使用你的相册【读写】操作？" --variable LOCATION_WHEN_IN_USE_USAGE_DESCRIPTION="是否允许此App使用你的当前位置？" --variable PHOTOLIBRARY_ADD_USAGE_DESCRIPTION="是否允许此App使用你的相册【仅添加】操作？"
 
 If you don't pass the variable, the plugin will add an empty string as value.
 
